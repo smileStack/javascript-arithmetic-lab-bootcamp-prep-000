@@ -22,10 +22,12 @@ function divide(a, b){
   return a/b;
 }
 function inc(n){
-  return n++;
+  var x = n;
+  return x++;
 }
 function dec(n){
-  return n--;
+  var x = n;
+  return x--;
 }
 function makeInt(n){
   return parseInt(n);
