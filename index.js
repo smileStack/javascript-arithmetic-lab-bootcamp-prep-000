@@ -26,8 +26,8 @@ function inc(n){
   return x++;
 }
 function dec(n){
-  var x = n;
-  return x--;
+  var x = n--;
+  return x;
 }
 function makeInt(n){
   return parseInt(n);
