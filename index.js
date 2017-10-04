@@ -23,7 +23,8 @@ function divide(a, b){
 }
 function inc(n){
   var x = n;
-  return x++;
+  x++;
+  return x;
 }
 function dec(n){
   var x = n;
